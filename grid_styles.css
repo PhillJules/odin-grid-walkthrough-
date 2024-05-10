@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px;
+  column-gap: 10px;
+}
+
+.container > div {
+  border: 1px solid blue;
+}
+/* .container {
+  display: grid;
+  grid-template: 50px 50px / 50px 50px 50px;
+} */
+/* Here we can define our rows and columns all at once.
+ For this property, rows are defined before the slash
+ and columns are defined after the slash. */
